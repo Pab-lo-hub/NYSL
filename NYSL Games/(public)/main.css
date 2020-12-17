@@ -1,0 +1,164 @@
+header {
+  background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(20, 20, 20));
+  padding: 10px;
+  color: white;
+  font-size: 30px;
+  -webkit-text-stroke: 1px rgba(39, 97, 16, 0.774);
+}
+
+#tab-bar {
+  background: #173112;
+  border-bottom: 1px #5a5656 solid;
+  position: relative;
+  zoom: 1;
+}
+
+/* Clearfix to stop our floats escaping */
+#tab-bar:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+}
+
+#tab-bar li {
+  display: inline;
+  float: left;
+  width: 33.333%;
+}
+
+#tab-bar:after {
+  clear: both;
+}
+
+/* Float our three list items so they’re evenly spaced */
+#tab-bar li {
+  display: inline;
+  float: left;
+  width: 33.333%;
+}
+
+/* Set a elements as blocks */
+#tab-bar a {
+  color: #cdcdcd;
+  display: block;
+  font-size: 1.175em;
+  /* 15px / 15px */
+  font-weight: bold;
+  height: 2.583em;
+  /* 55px / 12px */
+  margin: 0 0.833em;
+  /* 10px / 12px */
+  overflow: hidden;
+  padding-top: 0.428em;
+  /* 6px / 14px */
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+}
+
+#tab-bar a:hover {
+  background-color: rgb(29, 122, 42);
+}
+
+#btn1,
+#btn2,
+#btn3 {
+  background: #173112;
+  width: 100%;
+  height: 100%;
+}
+
+#btn1 a:hover,
+#btn2 a:hover,
+#btn3 a:hover {
+  background-color: rgb(29, 122, 42);
+}
+
+ul {
+  padding-inline-start: 0px;
+}
+
+#logotext {
+  font-size: 30px;
+}
+
+body {
+  text-align: center;
+  background-color: rgba(29, 59, 35, 0.986);
+  color: white;
+}
+
+.container {
+  text-align: center;
+  background-color: rgba(29, 59, 35, 0.986);
+  color: white;
+}
+
+.container-fluid {
+  text-align: center;
+  background-color: rgba(29, 59, 35, 0.986);
+  color: white;
+}
+
+.panel-collapse {
+  color: black;
+}
+
+.caption {
+  color: black;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: rgb(155, 0, 77);
+  color: white;
+}
+
+.img-thumbnail {
+  background-color: rgba(230, 223, 223, 0.925);
+  margin: 10px;
+  ;
+}
+
+@media only screen and (orientation: landscape) {
+  body {
+    background-color: rgb(10, 10, 10);
+  }
+
+  header {
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(58, 57, 57));
+    padding: 20px;
+    color: white;
+    font-size: 10px;
+    -webkit-text-stroke: 1px rgba(39, 97, 16, 0.774);
+  }
+
+  #tab-bar {
+    background: #191d18;
+  }
+}
+
+.col-sm-6 button {
+  margin: 10px;
+}
